@@ -1,0 +1,53 @@
+*.pyc
+*.bkp
+*.bkp.*
+**/__pycache__/
+db.sqlite3
+.env*
+**/tmp
+develop
+docker-compose.override.yml
+ui/keen_v1.3/theme/default/dist
+ui/keen_v1.3/theme/default/tools/node_modules
+ui/keen_v1.3/theme/default/tools/yarn.lock
+package.json
+package-lock.json
+node_modules
+*.csv
+deploy/**/*secret*
+nginx-static
+logs/*
+celerybeat-schedule
+*.swp
+htmlcov
+.coverage
+**/migrations/*
+!**/migrations/__init__.py
+
+apps/core/management/commands/boiler.py
+apps/core/templatetags/debug.py
+
+revealmarkets/settings_override_local.py
+revealmarkets/settings_override_stage.py
+revealmarkets/settings_override_production.py
+
+fluentd/
+
+# Cypress Testing
+tests/end2end/cypress.json
+
+
+# PyCharm
+.idea/
+celerybeat.pid
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+# MACOS Files
+.DS_Store
+
+# VisualCode
+.vscode/
